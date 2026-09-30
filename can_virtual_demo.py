@@ -27,3 +27,5 @@ if received:
     print("🎉 恭喜！你的第一个虚拟 CAN 收发脚本跑通了！")
 else:
     print("❌ 未收到消息，请检查代码或报错信息。")
+bus_send.shutdown()
+bus_recv.shutdown()
